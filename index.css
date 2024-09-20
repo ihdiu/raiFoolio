@@ -6,16 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+    
+    margin: 10px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -28,6 +28,14 @@ header {
 header h1 {
     font-size: 2.5em;
     color: #333;
+}
+header h1 img {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px;  /* Ensure the image is square for the circle effect */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image fits within the circle */
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 header p {
